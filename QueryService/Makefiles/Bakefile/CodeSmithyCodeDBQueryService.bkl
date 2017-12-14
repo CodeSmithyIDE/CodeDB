@@ -1,0 +1,13 @@
+toolsets = gnu vs2015 vs2013;
+
+gnu.makefile = ../GNUmakefile/GNUmakefile;
+vs2015.solutionfile = ../VC14/CodeSmithyCodeDBQueryService.sln;
+vs2013.solutionfile = ../VC12/CodeSmithyCodeDBQueryService.sln;
+
+program CodeSmithyCodeDBQueryService
+{
+    sources
+    {
+        ../../Source/main.cpp
+    }
+}
