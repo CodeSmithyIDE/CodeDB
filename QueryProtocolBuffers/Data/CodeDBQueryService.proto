@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package CodeSmithy;
+
+message CodeDBQueryRequest {
+}
+
+message CodeDBQueryResponse {    
+}
